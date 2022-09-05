@@ -11,3 +11,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </TaskContextProvider>
   </React.StrictMode>
 );
+
+//le indico que todo estará englobado por el componente <TaskContextProvider/>

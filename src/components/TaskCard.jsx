@@ -1,7 +1,9 @@
 import { useContext } from "react";
+//esta funcion es ara poder usar la funcion de contexto
 import { TaskContext } from "../context/TaskContext";
 
 function TaskCard({ task }) {
+  //con esto tengo acceso al contexto desde TaskCard, asignando el nombre que almacena el contexto a su funcion
   const { deleteTask } = useContext(TaskContext);
 
   return (

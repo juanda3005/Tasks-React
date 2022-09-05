@@ -1,0 +1,43 @@
+
+//en la terminal ubicado en el directorio donde quiero hacer el proyecto
+
+npm react vite
+
+//le doy el nombre al proyecto
+//selecciona como framework react
+
+//selecciona la primera opcion: 
+react 
+//(la cual se refiere a react js, la otra es con typescrip)
+
+
+npm install
+//para instalar las dependencias del proyecto
+
+//realizar estas acciones:
+
+ cd react-tasks-application
+ //(en caso de que no esté en el directorio)
+  npm install
+  npm run dev
+  //ctrl+clic en el link
+
+  npm run build para iniciar el enotorno de producción
+
+  //para tailwindcdd
+
+  npm install -D tailwindcss
+  npx tailwindcss init
+
+//reemplazar en tailwind.config.cjs content: [], por:
+content: ["./src/**/*.{html,js}"],
+
+en index.css pegar
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+asegurarse que en main.jsx se importe el css
+import './index.css'
+
+instalar extension de tailwind para autocompletar

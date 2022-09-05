@@ -4,7 +4,7 @@ import {TaskContext} from '../context/TaskContext'
 function TaskForm() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const { createTask } = useContext(TaskContext)
+  const { createTask } = useContext(TaskContext)//accedo a la funcion createTask del contexto usando useContext, asi mismo puedo accerder a variables u otros metodos del contexto
 
   const handleSubmit = (e) => {
     e.preventDefault();
